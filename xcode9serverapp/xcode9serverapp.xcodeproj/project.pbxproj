@@ -14,6 +14,7 @@
 		B86BDD861F50020200E555F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86BDD841F50020200E555F9 /* LaunchScreen.storyboard */; };
 		B86BDD911F50020200E555F9 /* xcode9serverappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BDD901F50020200E555F9 /* xcode9serverappTests.swift */; };
 		B86BDD9C1F50020200E555F9 /* xcode9serverappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BDD9B1F50020200E555F9 /* xcode9serverappUITests.swift */; };
+		B86BDDAA1F50060700E555F9 /* Placemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BDDA91F50060700E555F9 /* Placemark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B86BDD971F50020200E555F9 /* xcode9serverappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xcode9serverappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B86BDD9B1F50020200E555F9 /* xcode9serverappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xcode9serverappUITests.swift; sourceTree = "<group>"; };
 		B86BDD9D1F50020200E555F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B86BDDA91F50060700E555F9 /* Placemark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placemark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B86BDD821F50020200E555F9 /* Assets.xcassets */,
 				B86BDD841F50020200E555F9 /* LaunchScreen.storyboard */,
 				B86BDD871F50020200E555F9 /* Info.plist */,
+				B86BDDA91F50060700E555F9 /* Placemark.swift */,
 			);
 			path = xcode9serverapp;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B86BDD7E1F50020200E555F9 /* ViewController.swift in Sources */,
+				B86BDDAA1F50060700E555F9 /* Placemark.swift in Sources */,
 				B86BDD7C1F50020200E555F9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
