@@ -25,5 +25,9 @@ class xcode9serverappTests: XCTestCase {
         let place = Placemark()
         XCTAssertEqual(place.name, "Placemark Name")
     }
-    
+ 
+    func testExample2() {
+        let place = Placemark()
+        XCTAssertEqual(place.name, "Placemark Name")
+    }
 }
